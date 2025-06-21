@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+
+  height: 170px;
+  border-radius: 30px white;
+}
+
+.visitors {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card {
+  background-color: #7a0cff;
+  padding: 40px 60px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.card p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.font {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 10px;
+}
+.font-one {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.i {
+  color: #7a0cff;
+}
+
+.stats {
+  background-color: rgb(63, 58, 58);
+  padding: 30px 40px;
+
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item span {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.stat-item label {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 5px;
+}
+
+.liveview {
+  margin-left: 20px;
+  text-align: left;
+  height: 169px;
+  width: 220px;
+  background-color: rgb(63, 58, 58);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.liveview button {
+ background-color: #7a0cff;
+    border: none;
+    padding: 12px 37px;
+    width: 170px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.i {
+  height: 50px;
+  width: 50px;
+}
+
+.liveview p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #ccc;
+  max-width: 200px;
+  text-align: center;
+}
+
+.liveview p span {
+  color: #888;
+  font-weight: bold;
+}
+
+.custom-class {
+  padding-bottom: 32px;
+}
